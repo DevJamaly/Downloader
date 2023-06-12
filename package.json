@@ -1,0 +1,30 @@
+{
+  "name": "com.but.downloader",
+  "version": "1.2.0",
+  "displayName": "Downloader",
+  "description": "Custom downloader asset that allows easy downloading of Json files and assets from the backend using GraphQL queries",
+  "unity": "2019.1",
+  "unityRelease": "0b5",
+  "keywords": [
+    "Downloader",
+    "BUT"
+  ],
+  "author": {
+    "name": "Taha Dama",
+    "email": "tahad@but.ae",
+    "url": "https://tjamaly.com/"
+  },
+  "type": "tool",
+  "samples": [
+    {
+      "displayName": "Single Query",
+      "description": "Sample showing the setup for how to download Json and Assets for a single GraphQL Query.",
+      "path": "Samples~/01_SingleQuery"
+    },
+    {
+      "displayName": "Multiple Query",
+      "description": "Complex setup showcasing how to download Json and Assets seperately using multiple GarphQL Queries",
+      "path": "Samples~/02_MultipleQuery"
+    }
+  ]
+}
